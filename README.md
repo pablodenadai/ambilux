@@ -11,11 +11,9 @@ var ambilux = require('ambilux');
 
 var interval = ambilux.run({
   refreshInterval: 150
-}, cb);
-
-function cb (colours) {
+}, (colours) => {
   console.log(colours);
-}
+});
 
 setTimeout(() => {
   clearInterval(interval);
