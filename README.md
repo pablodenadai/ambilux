@@ -4,6 +4,8 @@ Calculate average pixel colour for ambilight effect.
 
 <img src="http://i.imgur.com/H7b5Miy.jpg" width="300px">
 
+## Usage
+
 ```js
 var ambilux = require('ambilux');
 
