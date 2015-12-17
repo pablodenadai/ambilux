@@ -1,0 +1,39 @@
+{
+  "name": "ambilux",
+  "version": "0.0.1",
+  "description": "Calculate average pixel colour for ambilight effect",
+  "license": "MIT",
+  "repository": "ghpabs/ambilux",
+  "author": {
+    "name": "Pabs"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "ambilux",
+    "ambilight",
+    "arduino",
+    "led",
+    "light"
+  ],
+  "dependencies": {
+    "average-colour": "0.0.1",
+    "robotjs": "^0.3.3"
+  },
+  "devDependencies": {
+    "ava": "^0.5.0",
+    "xo": "^0.11.2"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
